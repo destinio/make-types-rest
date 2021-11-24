@@ -1,4 +1,4 @@
-## MTS
+## MTR
 
 `npx make-types-rest`
 

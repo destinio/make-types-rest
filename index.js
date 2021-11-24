@@ -19,4 +19,6 @@ async function getTypes(rootName) {
   const convertedTypes = jsonToTs()
 }
 
-;(() => {})()
+;(() => {
+  console.log('More soom 🚀')
+})()
