@@ -1,5 +1,7 @@
 ## MTR
 
+## Convert JSON end-point to TypeScript Interface
+
 `npx make-types-rest`
 
 ```sh
