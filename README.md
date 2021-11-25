@@ -24,6 +24,37 @@
      }
 ```
 
+## Usage
+
+### Install
+
+`npm i -g make-types-rest`
+
+### Run in command line
+
+`make-types-rest -u https://jsonplaceholder.typicode.com/posts --root post`
+
+or
+
+`mtr -u https://jsonplaceholder.typicode.com/posts -r post -c`
+
+### Output
+
+```typescript
+interface Post {
+  userId: number
+  id: number
+  title: string
+  body: string
+}
+```
+
+### flags
+
+`--url, -u` **REQUIRED** URL string for API
+`--root, -r` RootName of interface
+`--copy, -c` Add to end to copy **interface** to clipboard
+
 ## Creds
 
 json-to-ts - https://www.npmjs.com/package/json-to-ts
