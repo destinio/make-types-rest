@@ -1,11 +1,12 @@
 {
   "name": "make-types-rest",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "bin": {
     "mtr": "./index.js"
   },
+  "types": ".",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,7 +15,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cfonts": "^2.10.0",
+    "chalk": "^4.1.2",
+    "clipboardy": "^3.0.0",
     "json-to-ts": "^1.7.0",
+    "meow": "^10.1.2",
     "node-fetch": "^3.1.0"
   }
 }
