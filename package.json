@@ -1,19 +1,26 @@
 {
   "name": "make-types-rest",
-  "version": "0.1.1",
-  "description": "",
+  "version": "0.1.2",
+  "author": "Destin Lee",
+  "description": "Convert JSON end-point to TypeScript Interface",
+  "homepage": "https://github.com/destinio/make-types-rest",
+  "bugs": {
+    "url": "https://github.com/destinio/make-types-rest/issues"
+  },
   "main": "index.js",
+  "license": "MIT",
   "bin": {
     "mtr": "./index.js"
   },
   "types": ".",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "type": "module",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "cli",
+    "typescript",
+    "json",
+    "conversion",
+    "command line"
+  ],
   "dependencies": {
     "cfonts": "^2.10.0",
     "chalk": "^4.1.2",
@@ -21,5 +28,11 @@
     "json-to-ts": "^1.7.0",
     "meow": "^10.1.2",
     "node-fetch": "^3.1.0"
+  },
+  "node": "^12.20.0 || ^14.13.1 || >=16.0.0",
+  "release": {
+    "branches": [
+      "main"
+    ]
   }
 }
