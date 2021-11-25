@@ -1,6 +1,6 @@
 {
   "name": "make-types-rest",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "Destin Lee",
   "description": "Convert JSON end-point to TypeScript Interface",
   "homepage": "https://github.com/destinio/make-types-rest",

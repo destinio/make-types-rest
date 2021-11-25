@@ -49,14 +49,6 @@ interface Post {
 }
 ```
 
-### flags
-
-`--url, -u` **REQUIRED** URL string for API
-
-`--root, -r` RootName of interface
-
-`--copy, -c` Add to end to copy **interface** to clipboard
-
 ## Creds
 
 json-to-ts - https://www.npmjs.com/package/json-to-ts
