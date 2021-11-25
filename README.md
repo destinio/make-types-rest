@@ -9,9 +9,9 @@
     $ mtr --url <urlString> --root post
 
   Options
-    --url, -u  Url to be converted to Types
-     --root, -r Name of Interface default "RootObject"
-    --copy, -c Copy output to clipboard
+    --url, -u   Url to be converted to Types
+    --root, -r  Name of Interface default "RootObject"
+    --copy, -c  Copy output to clipboard
 
   Examples
     $ mtr -u https://jsonplaceholder.typicode.com/posts  --root post
@@ -52,7 +52,9 @@ interface Post {
 ### flags
 
 `--url, -u` **REQUIRED** URL string for API
+
 `--root, -r` RootName of interface
+
 `--copy, -c` Add to end to copy **interface** to clipboard
 
 ## Creds
