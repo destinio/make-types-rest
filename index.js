@@ -57,7 +57,7 @@ import cfonts from 'cfonts'
     return
   }
 
-  const res = await fetch('https://jsonplaceholder.typicode.com/posts')
+  const res = await fetch(url)
   const json = await res.json()
   const data = await json[0]
 
